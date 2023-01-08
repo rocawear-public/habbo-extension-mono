@@ -1,5 +1,5 @@
 {
-  "name": "@habbo-extension/trpc",
+  "name": "@habbo-extension/extension",
   "version": "1.0.0",
   "description": "",
   "main": "./dist/index.js",
@@ -13,8 +13,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "superjson": "^1.12.1",
-    "@habbo-extension/extension": "*"
+    "gnode-api": "^0.2.12",
+    "@habbo-extension/types": "*"
   },
   "devDependencies": {
     "tsup": "^6.5.0"

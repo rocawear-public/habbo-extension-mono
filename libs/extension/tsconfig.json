@@ -4,5 +4,5 @@
     "rootDir": "",
     "outDir": "dist"
   },
-  "references": [{ "path": "../../apps/server" }, { "path": "../../libs/extension" }]
+  "references": [{ "path": "../../apps/server" }]
 }

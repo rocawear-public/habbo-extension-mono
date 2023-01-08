@@ -4,9 +4,9 @@
   "description": "",
   "scripts": {
     "build": "npm run build -ws --if-present",
-    "start": "npm run start -w apps/server",
+    "start": "npm run start -ws --if-present",
     "dev": "npm run dev -ws --if-present",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm run test -ws --if-present"
   },
   "keywords": [],
   "author": "",

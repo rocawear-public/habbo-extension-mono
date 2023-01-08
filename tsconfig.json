@@ -1,4 +1,10 @@
 {
   "files": [],
-  "references": [{ "path": "./apps/server" }, { "path": "./libs/trpc" }]
+  "references": [
+    { "path": "./apps/server" },
+    { "path": "./apps/client" },
+    { "path": "./libs/trpc" },
+    { "path": "./libs/extension" },
+    { "path": "./libs/types" }
+  ]
 }
