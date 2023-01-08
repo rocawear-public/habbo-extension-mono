@@ -6,8 +6,8 @@
   "module": "./dist/index.mjs",
   "type": "module",
   "scripts": {
-    "dev": "tsup src/index.ts --dts --watch --format esm,cjs",
-    "build": "tsup src/index.ts --dts --format esm,cjs"
+    "dev": "tsup --watch",
+    "build": "tsup"
   },
   "keywords": [],
   "author": "",
