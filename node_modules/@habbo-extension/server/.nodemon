@@ -1,7 +1,0 @@
-{
-  "restartable": "rs",
-  "watch": [
-    "src",
-    "../../libs/trpc"
-  ]
-}
