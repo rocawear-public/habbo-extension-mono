@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "./dist/index.js",
-  "type": "module",
   "module": "./dist/index.mjs",
+  "type": "module",
   "scripts": {
-    "dev": "tsup src/index.ts --watch",
-    "build": "tsup src/index.ts"
+    "dev": "tsup src/index.ts --dts --watch --format esm,cjs",
+    "build": "tsup src/index.ts --dts --format esm,cjs"
   },
   "keywords": [],
   "author": "",
