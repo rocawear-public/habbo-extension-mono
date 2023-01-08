@@ -1,6 +1,5 @@
 import { QueryClientProvider } from "@tanstack/react-query";
-import React, { StrictMode } from "react";
-import ReactDOM from "react-dom/client";
+import { StrictMode } from "react";
 import { Outlet, RouterProvider, Link, createReactRouter, createRouteConfig } from "@tanstack/react-router";
 
 const rootRoute = createRouteConfig({
@@ -42,7 +41,9 @@ export function App() {
   return (
     <trpc.Provider client={trpcClient} queryClient={queryClient}>
       <QueryClientProvider client={queryClient}>
-        <RouterProvider router={router} />
+        <StrictMode>
+          <RouterProvider router={router} />
+        </StrictMode>
       </QueryClientProvider>
     </trpc.Provider>
   );
